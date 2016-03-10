@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'ypzdw.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'ypzdw',
-        'USER':'ypzdw',
-        'PASSWORD':'ypzdw',
+        'NAME':'jastme',
+        'USER':'jastme',
+        'PASSWORD':'jastme',
         'HOST':'127.0.0.1',
         'PORT':'3306',
     }
@@ -107,5 +107,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = '/static/'
 TEMPLATE_DIRS =(
-                '/var/www/ypzdw/',
+                '/var/www/jastme/',
 )
